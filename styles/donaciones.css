@@ -1,0 +1,356 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: black ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+main{
+    padding-top:10rem
+}
+
+
+.container-donaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:4rem;
+    margin-bottom:4rem;
+    color: white
+}
+
+
+.title-donaciones{
+    color: white;
+}
+
+.title-donaciones h1{
+    border-bottom: 2px solid red;
+} 
+
+.donaciones{
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 19px;
+}
+
+.donaciones a{
+    color: white;
+    background-color: #d00000;
+    text-decoration: none;
+    width: 8rem;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.donaciones-1{
+    display: flex;
+    justify-content: space-around;
+    width: 55vw;
+}
+
+.donaciones-2{
+    display: flex;
+    justify-content: space-around;
+    width: 55vw;
+    margin-top: 6rem;
+}
+
+.donaciones-3{
+    display: flex;
+    justify-content: space-around;
+    width: 55vw;
+    margin-top:6rem;
+}
+/* 
+.donaciones-4{
+    display: flex;
+    justify-content: space-around;
+    width: 55vw;
+    margin-top:3rem;
+}
+ */
+
+.mafia1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mafia2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mafia3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bandas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.negocios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.auto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.auto2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.auto3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.precio{
+    display: flex;
+    justify-content: center;
+}
+
+.precio a p{
+    margin-left: 29px;
+}
+
+.precio a:hover{
+    transform: scale(1.1)
+}
+
+.desc-mafia {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.desc-vip{
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+
+
+.medios-de-pago{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 11rem
+}
+
+.medios-de-pago .title{
+    display:flex;
+    justify-content:center
+}
+
+.medios-de-pago h3{
+    border-bottom: 2px solid red;
+} 
+
+.medios-de-pago .icons{
+    display:flex;
+    justify-content:center
+}
+
+.medios-de-pago .icons1 img{
+    height: 4rem;
+
+}
+
+.icons1 {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    font-size: 4rem;
+    width: 50vw;
+}
+
+.icons2 {
+    display: flex;
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    font-size: 4rem;
+}
+
+.medios-de-pago .icons2 img{
+    height: 4rem;
+
+}
+
+
+@media screen and (min-width: 320px){
+
+    main {
+        padding-top: 7rem;
+    }
+
+    .donaciones-container{
+        margin-top: 0;
+    }
+    
+    .title-donaciones h1{
+        margin-left: 4rem;
+        margin-right: 4rem;
+        text-align: center;
+    }
+    .donaciones{
+        width: 100vw;
+    }
+ 
+    .donaciones-1{
+        display: block;
+        width: 100vw;
+    }
+    .donaciones-2{
+        display: block;
+        margin-top: unset;
+        width: 100vw;
+    }
+    .donaciones-3{
+       flex-direction: column;
+       margin-top: unset;
+       width: 100vw;
+    }
+
+    .donaciones-1 div {
+        width: 100vw;
+    }
+
+    .donaciones-2 div {
+      
+        width: 100vw;
+    }
+    .donaciones-3 div {
+       
+        width: 100vw;
+    }
+
+    .mafia1{
+        padding-top: 40px;
+    }
+    .mafia2{
+        padding-top: 40px;
+    }
+    .mafia3{
+        padding-top: 40px;
+    }
+    .desc-mafia {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+  
+    .auto1{
+        padding-top: 40px;
+    }
+    .auto2{
+        padding-top: 40px;
+    }
+    .auto3{
+        padding-top: 40px;
+    }
+
+    .negocios{
+        padding-top: 40px;
+    }
+
+    .bandas{
+        padding-top: 40px;
+    }
+    
+    .medios-de-pago{
+        margin-top: 6rem;
+    }
+
+    .icons1{
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .icons1 div{
+        padding-top: 15px;
+    }
+    
+    .icons2{
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons2 div{
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .donaciones{
+
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+
+    }
+
+    .donaciones-1{
+        width: unset;
+        display: flex;
+    }
+    .donaciones-2{
+        width: unset;
+        display: flex;
+    }
+    .donaciones-3{
+        width: unset;
+        display: flex;
+        flex-direction: unset;
+    }
+    .donaciones-1 div {
+        width: unset;
+    }
+    .donaciones-2 div {
+        width: unset;
+    }
+    .donaciones-3 div{
+        width: unset;
+    }
+
+    /* medios de pago */
+    .icons1{
+        flex-direction: unset;
+    }
+    .icons2{
+        flex-direction: unset;
+    }
+    .icons3{
+        flex-direction: unset;
+    }
+
+}

@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: black ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+main{
+    padding-top:10rem;
+    display: flex;
+    justify-content:center
+}
+
+.container-negocios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:4rem;
+    margin-bottom:4rem;
+    color: white;
+    width: 80vw;
+    
+}
+
+.container-negocios a{
+    text-decoration: none;
+}
+
+.title-donaciones{
+    color: white;
+}
+
+.contenedor-de-negocios{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    justify-content:space-around;
+    margin-top:4rem; 
+    font-size: 1rem;
+     margin-bottom: 19px;
+ 
+}
+
+.contenedor-de-negocios a{
+    color: white;
+    background-color: #1ad41a;
+    width: 8rem;
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 27px;
+}
+
+.contenedor-de-negocios a p {
+    margin-top: 5px;
+    text-align: center;
+}
+.casino a{
+    color:white;
+    background-color: red;
+}
+
+.galaxy a{
+    color:white;
+    background-color: red
+}
+
+.negocios1 div{
+  margin-top:2rem ;
+  width: 13rem;
+  height: 5rem;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.negocios2 div{
+    margin-top:2rem ;
+    width: 13rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.negocios3 div{
+    margin-top:2rem ;
+    width: 13rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width: 320px){
+    
+    .container-negocios{
+        margin-top: 0;
+        width: 100vw;
+
+    }
+    
+    .title-donaciones h3{
+        margin-left: 4rem;
+        margin-right: 4rem;
+        border-bottom: 2px solid red;
+        width: 95vw;
+    }
+    .contenedor-de-negocios{
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        height: 80rem;
+    }
+
+    .contenedor-de-negocios h3{
+        text-align: center;
+    }
+    .normativas-1{
+        display: block;
+        margin-top: 20px;
+        width: 100vw;
+    }
+    .normativas-2{
+        display: block;
+        margin-top: unset;
+    }
+
+    .normativas-1 div {
+        padding-top: 20px;
+        width: 100vw;
+    }
+
+    .normativas-2 div {
+        padding-top: 20px;
+        width: 100vw;
+    }
+
+
+}
